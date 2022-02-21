@@ -89,7 +89,7 @@ public final class ImageScannerController: UINavigationController {
     }
     
     public required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        fatalError("init(coder:) has not been implemented mikatestpod")
     }
     
     private func detect(image: UIImage, completion: @escaping (Quadrilateral?) -> Void) {
